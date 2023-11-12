@@ -1,0 +1,38 @@
+12. GIT HUB
+GitHub is an online platform for version control and collaborative software development, enabling teams and individuals to store, manage, and track changes to their code repositories,
+ and facilitating collaboration through features like pull requests, issue tracking, and code review.
+ 13. GIT VS GIT HUB
+     Git: Git is a distributed version control system that allows developers to track changes in their codebase, 
+	 collaborate with others, and manage code repositories locally on their computers. It is not a web-based platform.
+
+    GitHub: GitHub, on the other hand, is a web-based platform built around Git.
+	It provides a cloud-based environment for hosting, sharing, and collaborating on Git repositories. GitHub offers features such as pull requests, issue tracking, and a web-based interface for managing Git repositories, 
+	making it a popular choice for distributed software development and version control.
+14.
+
+    VPC (Virtual Private Cloud): VPC is a virtual network that you can define
+	within a cloud provider like AWS. It allows you to logically isolate your cloud resources, control their network settings, and connect them securely to the internet or other VPCs.
+
+    Route Table: A route table is a configuration that defines how network
+	traffic should be directed within a VPC or between a VPC and external networks. It specifies routes and their destinations, helping determine 
+	where data should be forwarded.
+
+    15.
+	CIDR (Classless Inter-Domain Routing): CIDR is a method for allocating 
+	and specifying IP addresses and routing information. It allows for more efficient use of IP address space by using a prefix length notation (e.g., 192.168.1.0/24) to represent a network's address range and subnet mask.
+	
+	    HTTP (Hypertext Transfer Protocol): HTTP is the foundation of data communication on the World Wide Web and typically uses port 80 for unencrypted web traffic.
+
+    HTTPS (Hypertext Transfer Protocol Secure): HTTPS is a secure version of HTTP, encrypting data transfer, and it usually uses port 443.
+
+    RDS (Relational Database Service): RDS is a managed database service by AWS. It typically uses port 3306 for MySQL, 5432 for PostgreSQL, and others for various database engines.
+
+    SSH (Secure Shell): SSH is a secure protocol for remote access to a server or computer. It commonly uses port 22 for secure shell connections.
+
+ ** Question :
+ 
+ Application vs network load balancer
+ Asw code Pipline  
+ CI/CD-- jenkins
+ maven -build automatication tool 
+ command  to run the web base application -- springboot --- java frame work it web based application
