@@ -1,0 +1,28 @@
+Architecture of Kubernetes (K8s): Kubernetes is an orchestration platform with a master-worker
+ architecture. The master controls cluster operations, while worker nodes run containerized applications in pods.
+ 
+ 
+ 
+ Steps for Docker Architecture: Docker uses a client-server architecture. You create Docker images with the Docker CLI, 
+ and the Docker daemon (server) manages containers, running instances of those images.
+ 
+ Node, Pod, Master(Kubernetes Architecture): In Kubernetes, a node is a worker machine,
+ a pod is the smallest deployable unit,
+ the master controls the cluster,
+ worker nodes are used instead.
+ 
+ 
+ Docker Hub is a cloud-based registry service provided by Docker 
+ for sharing container images. It serves as a central repository for Docker images, 
+ allowing developers to store, share, and distribute their containerized applications. 
+ Here are some key aspects of Docker Hub:
+ 
+ A Dockerfile is a script used to create a Docker image. It contains a set of instructions 
+ that Docker uses to automatically perform tasks when building a Docker image.
+ Docker images are the packaged and distributable
+ runtime environment for a specific application, 
+ including the application code, libraries, dependencies, and runtime.
+ 
+ 
+S3, EC2, VPC, ROUTE53, EBS, IAM, CLOUDWATCH, CLOUDFRONT, WORKSPACE, etc.
+
