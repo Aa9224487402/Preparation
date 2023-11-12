@@ -1,0 +1,161 @@
+interviews :
+
+grep command   mean 
+i Need to search root    specific word    -grep  etc/apt/sources
+suppose want to gr  cat /etc/group
+cat /etc/password
+
+Kubectl inspect  -- network 
+kubectcl ns 
+master /slave   - kuberneters cluster
+
+Happies mind : Interview
+ ** Question :
+ 
+ Application vs network load balancer
+ Asw code Pipline  
+ CI/CD-- jenkins
+ maven -build automatication tool 
+ command  to run the web base application -- springboot --- java frame work it web based application
+ jenkins CI  --- project  in freestyle an dalso pipeline.
+ 
+ have worked on azure platform (pipeline code)
+ 
+ over all erperien can u brief it.  
+
+AZ -- RDS
+
+A multi-AZ (Availability Zone) database is a high availability configuration in cloud-based database services 
+that replicates data to a secondary data center (AZ) for automatic failover, ensuring data resilience and minimal downtime.
+
+
+
+role and policies different - IAM  --- Permisssion 
+
+3.Here are five common networking-related commands in Linux:
+
+    ifconfig or ip addr: Display network interface configuration, including IP addresses and other network-related information.
+
+    ping [hostname or IP]: Send ICMP echo requests to test network connectivity and measure round-trip time to a target host.
+
+    nslookup [hostname]: Look up the IP address of a host using DNS (Domain Name System) resolution.
+
+    netstat -tuln: List open network ports and associated services on the system.
+
+    traceroute [hostname or IP]: Trace the route packets take to reach a destination host, showing all the hops along the way.
+	
+4. ACL vs NCL different
+In a DevOps interview, ACL (Access Control List) and NCL (Network Control List) are different terms. ACL manages permissions for resources, typically within a network, 
+while NCL specifies rules to control inbound/outbound traffic in a network, often in cloud-based environments like AWS.
+
+5. Public vs Private
+
+        Public resources are accessible from the internet, typically with a public IP or DNS.
+        Public resources can be accessed by anyone with internet connectivity.
+        AWS provides services like Amazon S3 with public access by default, which needs careful access control.
+Private Resources:
+        Private resources are not directly accessible from the internet.
+        Private resources are often used for databases, internal applications, and services that don't need direct internet access.
+        To access private resources, you can set up VPNsI'm interested or Direct Connect for secure connections.
+    Hybrid Architectures:
+        Many AWS environments use a combination of public and private resources to strike a balance between accessibility and security.
+        Hybrid architectures allow for public-facing components (e.g., load balancers) and private backend components (e.g., databases) to work together effectively.
+
+6. Copy and Move command 
+CP cp [options] source destination  (Copies files or directories from one location to another)
+MV mv [options] source destinat(Moves files or directories from one location to another)
+
+7. KUBECTL VS NOde
+kubectl is a command-line tool for managing Kubernetes clusters, while a "node" in Kubernetes is a worker machine responsible for running containers.
+kubctl get pod
+kubectl get namespace
+kubectl descibe the pod podname
+kubectl logs
+kubectl exec -t podname
+
+8. Architectures Kubernetes
+GKE
+Kubernetes is a container orchestration platform with a master and multiple nodes; the master controls the cluster, and nodes run containers, 
+ensuring scalability, high availability, and automation for containerized applications.
+maintained by CNCF-Cloud native Computing Foundation (CNCF) open source project in july 2014.
+
+
+9.What is Docker
+Docker is a platform for developing, shipping, and running applications in containers, 
+which are lightweight, isolated environments that package an application and its dependencies.
+10. what is container 
+A container is a lightweight, standalone, and executable software package that includes an application and 
+all its dependencies, making it easy to run consistently across different environments.
+11.Jenkins Master/salve
+Jenkins master/slave is a distributed build and automation architecture where the master manages job scheduling and monitoring,
+while multiple slave nodes execute build tasks,enabling scalability and parallelism in continuous integration.
+
+Types of intances :
+1.Amazon EC2 General Purpose (M-Series): 
+2. Amazon EC2 Compute-Optimized (C-Series)
+3.Amazon EC2 Memory-Optimized (R-Series, X-Series)
+4.Amazon EC2 Storage-Optimized (I-Series, D-Series):
+5.Amazon EC2 GPU Instances (P-Series, G-Series)
+6. Amazon EC2 Network-Optimized (N-Series):w
+7. Amazon EC2 Burstable Instances (T-Series):
+
+12. GIT HUB
+GitHub is an online platform for version control and collaborative software development, enabling teams and individuals to store, manage, and track changes to their code repositories,
+ and facilitating collaboration through features like pull requests, issue tracking, and code review.
+ 13. GIT VS GIT HUB
+     Git: Git is a distributed version control system that allows developers to track changes in their codebase, 
+	 collaborate with others, and manage code repositories locally on their computers. It is not a web-based platform.
+    GitHub: GitHub, on the other hand, is a web-based platform built around Git.
+	It provides a cloud-based environment for hosting, sharing, and collaborating on Git repositories. GitHub offers features such as pull requests, issue tracking, and a web-based interface for managing Git repositories, 
+	making it a popular choice for distributed software development and version control.
+14.
+    VPC (Virtual Private Cloud): VPC is a virtual network that you can define
+	within a cloud provider like AWS. It allows you to logically isolate your cloud resources, control their network settings, and connect them securely to the internet or other VPCs.
+
+    Route Table: A route table is a configuration that defines how network
+	traffic should be directed within a VPC or between a VPC and external networks. It specifies routes and their destinations,
+	helping determine where data should be forwarded.
+
+    15.
+	CIDR (Classless Inter-Domain Routing): CIDR is a method for allocating 
+	and specifying IP addresses and routing information. It allows for more efficient use of IP address space by using a prefix length notation (e.g., 192.168.1.0/24) to represent a network's address range and subnet mask.
+	
+	    HTTP (Hypertext Transfer Protocol): HTTP is the foundation of data communication on the World Wide Web and typically uses port 80 for unencrypted web traffic.
+
+    HTTPS (Hypertext Transfer Protocol Secure): HTTPS is a secure version of HTTP, encrypting data transfer, and it usually uses port 443.
+s
+    RDS (Relational Database Service): RDS is a managed database service by AWS. It typically uses port 3306 for MySQL, 5432 for PostgreSQL, and others for various database engines.
+
+    SSH (Secure Shell): SSH is a secure protocol for remote access to a server or computer. It commonly uses port 22 for secure shell connections.
+
+16.
+S3 lifecycle management is a feature in Amazon S3 that automates the process of transitioning objects between different storage classes 
+(e.g., from standard to infrequent access) and even automatically deleting objects 
+that have reached the end of their specified retention period, helping optimize storage costs and data management
+
+
+
+we can create  multiple task it is called a jobs
+
+convert Hight level language to low level language that is called compiling
+
+build : some will generate war file jar file  or exec file etc 
+building code 
+
+Springboot - it a java frame work  - web base application - it will run on browser
+
+MAven build    automation tool with help of we can build java code primary
+
+mnv clean , maven install, mvn package  - command 
+
+
+java -jar spring-snaphot.jar  --server.port=8081
+
+as soon as developer push the code in centrailized location  
+
+
+primarlily we will provide the distribution of jenkins 
+
+JNLP agent port is disable 
+
+Agents - TCP port for inbound agents																							 	agent port
