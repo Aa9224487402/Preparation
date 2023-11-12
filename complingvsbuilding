@@ -1,0 +1,17 @@
+we can create  multiple task it is called a jobs
+
+Hight level language to low level language that is called compiling
+
+build : some will generate war file jar file  or exec file etc 
+building code 
+
+Springboot - it a java frame work  - web base application - it will run on browser
+
+MAven build    automation tool with help of we can build java code primary
+
+mnv clean , maven install, mvn package  - command 
+
+
+java -jar spring-snaphot.jar  --server.port=8081
+
+as soon as developer push the code in centrailized location  
